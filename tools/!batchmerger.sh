@@ -1,5 +1,3 @@
 #!/bin/sh
-cd scripts
-find -name *.shader -exec cat {} + > allshaders.original
+cat *.shader > allshaders.original
 rm *.shader
-cd ..
